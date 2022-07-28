@@ -147,6 +147,11 @@ body {
 .price-tables .card .card-list .benefits-list .benefits {
   display: flex;
   gap: 0.9375rem;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #828799;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
 }
 .price-tables .main {
   height: 30.625rem;
