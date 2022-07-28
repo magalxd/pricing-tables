@@ -1,0 +1,203 @@
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #1D539E 50%, #E5E5E5 50%) no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 6.25rem;
+  margin-bottom: 4.0625rem;
+}
+.header .title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.25rem;
+  color: #fff;
+  margin-bottom: 1.25rem;
+}
+.header .subtitle {
+  font-family: "Open Sans";
+  font-weight: 400;
+  width: 45%;
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.price-tables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-bottom: 7.5rem;
+  align-items: center;
+  position: relative;
+}
+.price-tables .card {
+  height: 29.375rem;
+  width: 22.1875rem;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.875rem 1.875rem 0 1.875rem;
+}
+.price-tables .card .btn {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  text-align: center;
+  background: #fff;
+  color: #1D539E;
+  border: 1px solid #1D539E;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 1.875rem;
+  padding: 0.75rem 6.625rem;
+  transform: translateX(1.25rem);
+  cursor: pointer;
+}
+.price-tables .card .btn:hover {
+  background: #1D539E;
+  color: #fff;
+  transition: all 0.2s;
+}
+.price-tables .card .title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.price-tables .card .description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #828799;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  padding-bottom: 1.25rem;
+}
+.price-tables .card .card-list {
+  border-top: 1px solid #EEEEEE;
+}
+.price-tables .card .card-list .benefits-list {
+  padding-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.price-tables .card .card-list .benefits-list .benefits {
+  display: flex;
+  gap: 0.9375rem;
+}
+.price-tables .main {
+  height: 30.625rem;
+  background: linear-gradient(#FFCC29 15%, #fff 15%);
+  align-items: center;
+}
+.price-tables .main .card-header {
+  background: #FFCC29;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+.price-tables .main .title {
+  color: #1D539E;
+  font-size: 1.25rem;
+}
+.price-tables .main .header-btn {
+  border-radius: 40px;
+  background: #1D539E;
+  color: #fff;
+  width: 5.875rem;
+  height: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.price-tables .main .header-btn:hover {
+  background: rgb(0, 102, 255);
+  transition: all 0.2s;
+}
+.price-tables .main .card-list .btn {
+  color: #fff;
+  background-color: #1D539E;
+  border: none;
+}
+.price-tables .main .card-list .btn:hover {
+  background: rgb(0, 102, 255);
+  transition: all 0.2s;
+}
+
+.price {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.0625rem;
+  padding-bottom: 0.625rem;
+}
+.price .highlight {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #828799;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+}/*# sourceMappingURL=main.css.map */

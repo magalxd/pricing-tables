@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: toRem(100);
+    margin-bottom: toRem(65);
+
+    .title{
+        @include openSans700;
+        font-size: toRem(48);
+        line-height: toRem(68);
+        color: #fff;
+        margin-bottom: toRem(20);
+    }
+    .subtitle{
+        @include openSans400;
+        width: 45%;
+        color: #fff;
+        font-size: toRem(18);
+        line-height: toRem(24);
+
+    }
+}

@@ -1,0 +1,20 @@
+@function toRem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}
+
+
+@mixin openSans700{
+    font-family: $openSans;
+    font-weight: 700;
+}
+
+@mixin openSans600{
+    font-family: $openSans;
+    font-weight: 600;
+}
+
+@mixin openSans400{
+    font-family: $openSans;
+    font-weight: 400;
+}
